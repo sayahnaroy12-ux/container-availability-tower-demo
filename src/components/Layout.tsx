@@ -2,6 +2,7 @@ import { Outlet } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import Header from './Header';
 import ToastContainer from './ToastContainer';
+import GlobalEdgeAssistant from './GlobalEdgeAssistant';
 import { motion } from 'motion/react';
 
 export default function Layout() {
@@ -22,6 +23,7 @@ export default function Layout() {
           </motion.div>
         </main>
       </div>
+      <GlobalEdgeAssistant />
       <ToastContainer />
     </div>
   );
