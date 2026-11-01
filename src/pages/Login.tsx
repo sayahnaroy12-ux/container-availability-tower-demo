@@ -72,16 +72,16 @@ export default function Login() {
           >
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 mb-8">
               <Globe className="w-5 h-5 text-blue-300" />
-              <span className="text-sm font-medium text-blue-100 tracking-wide uppercase">Global Operations Hub</span>
+              <span className="text-sm font-medium text-blue-100 tracking-wide uppercase">Container Operations Demo</span>
             </div>
             <h1 className="text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
-              AI-Powered <br/>
+              Container <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">
                 MEARSK TOWER
               </span>
             </h1>
             <p className="text-xl text-slate-300 mb-12 leading-relaxed max-w-xl">
-              Monitor shipments, predict disruptions, and optimize logistics operations in real time with advanced artificial intelligence.
+              Explore a prototype for port availability, sample container movements, and reviewable planning signals.
             </p>
             <p className="mb-8 text-sm font-medium tracking-wide text-cyan-200/80">
               AI Tower built by Global Edge Consultants
@@ -90,18 +90,18 @@ export default function Login() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-4 rounded-xl">
                 <ShieldCheck className="w-8 h-8 text-blue-400 mb-3" />
-                <h3 className="font-semibold text-white mb-1">Enterprise Security</h3>
-                <p className="text-sm text-slate-400">Bank-grade encryption</p>
+                <h3 className="font-semibold text-white mb-1">Demo access</h3>
+                <p className="text-sm text-slate-400">Browser-local sample account</p>
               </div>
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-4 rounded-xl">
                 <Activity className="w-8 h-8 text-indigo-400 mb-3" />
-                <h3 className="font-semibold text-white mb-1">AI Analytics</h3>
-                <p className="text-sm text-slate-400">Predictive insights</p>
+                <h3 className="font-semibold text-white mb-1">Planning signals</h3>
+                <p className="text-sm text-slate-400">Illustrative, human-reviewed</p>
               </div>
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 p-4 rounded-xl">
                 <MapPin className="w-8 h-8 text-sky-400 mb-3" />
-                <h3 className="font-semibold text-white mb-1">Real-Time Tracking</h3>
-                <p className="text-sm text-slate-400">Global visibility</p>
+                <h3 className="font-semibold text-white mb-1">Shipment visibility</h3>
+                <p className="text-sm text-slate-400">Sample records · not live connected</p>
               </div>
             </div>
           </motion.div>
@@ -125,7 +125,14 @@ export default function Login() {
             
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-slate-900 dark:text-white tracking-tight mb-2">Welcome Back</h2>
-              <p className="text-slate-500 dark:text-slate-400 text-sm">Sign in to access your control tower</p>
+              <p className="text-slate-500 dark:text-slate-400 text-sm">Sign in to explore the container operations demo</p>
+            </div>
+
+            <div className="mb-6 rounded-xl border border-cyan-200 bg-cyan-50 p-4 text-sm dark:border-cyan-900 dark:bg-cyan-950/40">
+              <p className="font-semibold text-cyan-950 dark:text-cyan-100">Public demo sign-in</p>
+              <p className="mt-1 text-slate-700 dark:text-slate-300">Email: <span className="font-mono">admin@supplychain.com</span></p>
+              <p className="text-slate-700 dark:text-slate-300">Password: <span className="font-mono">password123</span></p>
+              <p className="mt-2 text-xs leading-5 text-slate-500 dark:text-slate-400">Demo data and accounts are stored in this browser only. Do not enter real shipment or personal information.</p>
             </div>
 
             {error && (
@@ -179,7 +186,7 @@ export default function Login() {
                 </div>
                 <div className="mt-2 flex items-center text-xs text-slate-500 dark:text-slate-400">
                   <ShieldCheck className="w-3.5 h-3.5 mr-1.5 text-emerald-500" />
-                  Secure enterprise authentication
+                  Demo account stored in this browser
                 </div>
               </div>
 
@@ -237,15 +244,15 @@ export default function Login() {
               <div className="flex flex-wrap justify-center gap-4">
                 <div className="flex items-center space-x-1.5 px-3 py-1.5 bg-slate-100 dark:bg-slate-800 rounded-full">
                   <ShieldCheck className="w-3.5 h-3.5 text-blue-500" />
-                  <span className="text-[10px] font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider">Enterprise Security</span>
+                  <span className="text-[10px] font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider">Demo environment</span>
                 </div>
                 <div className="flex items-center space-x-1.5 px-3 py-1.5 bg-slate-100 dark:bg-slate-800 rounded-full">
                   <Activity className="w-3.5 h-3.5 text-indigo-500" />
-                  <span className="text-[10px] font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider">AI-Powered Analytics</span>
+                  <span className="text-[10px] font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider">Illustrative planning</span>
                 </div>
                 <div className="flex items-center space-x-1.5 px-3 py-1.5 bg-slate-100 dark:bg-slate-800 rounded-full">
                   <Globe className="w-3.5 h-3.5 text-sky-500" />
-                  <span className="text-[10px] font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider">Real-Time Tracking</span>
+                  <span className="text-[10px] font-bold text-slate-600 dark:text-slate-400 uppercase tracking-wider">Not live tracking</span>
                 </div>
               </div>
             </div>
