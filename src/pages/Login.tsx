@@ -77,11 +77,14 @@ export default function Login() {
             <h1 className="text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
               AI-Powered <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">
-                Supply Chain Control Tower
+                MEARSK TOWER
               </span>
             </h1>
             <p className="text-xl text-slate-300 mb-12 leading-relaxed max-w-xl">
               Monitor shipments, predict disruptions, and optimize logistics operations in real time with advanced artificial intelligence.
+            </p>
+            <p className="mb-8 text-sm font-medium tracking-wide text-cyan-200/80">
+              AI Tower built by Global Edge Consultants
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

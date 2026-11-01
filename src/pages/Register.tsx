@@ -150,7 +150,7 @@ export default function Register() {
           
           <div className="text-center mb-8">
             <h1 className="text-3xl font-bold text-slate-900 dark:text-white tracking-tight">New Manager Registration</h1>
-            <p className="text-slate-500 dark:text-slate-400 mt-2 text-sm">Join your company's AI Supply Chain Control Tower</p>
+            <p className="text-slate-500 dark:text-slate-400 mt-2 text-sm">Join your company's MEARSK TOWER</p>
           </div>
 
           {/* Progress Indicator */}
@@ -454,7 +454,7 @@ export default function Register() {
                       />
                     </div>
                     <label htmlFor="isAuthorized" className="ml-3 text-sm font-medium text-slate-700 dark:text-slate-300">
-                      I confirm I am an authorized employee of this company and have permission to access the Supply Chain Control Tower.
+                      I confirm I am an authorized employee of this company and have permission to access MEARSK TOWER.
                     </label>
                   </div>
                 </motion.div>
